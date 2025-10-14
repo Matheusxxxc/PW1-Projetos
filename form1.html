@@ -1,29 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/estilo.css">
 </head>
+
 <body>
- <h2>CADASTRE-SE</h2> 
- <form action="/action_page.php">
+  <h2>CADASTRE-SE</h2>
+  <form action="/action_page.php">
     <fieldset>
       <legend>Dados de Login:</legend>
       <label for="CPF">CPF:</label>
-  <input type="text" id="CPF" name="CPF" maxlength="14" placeholder="___.___.___-__">
-  <br>
-  <br>
-  <label for="email">E-mail:</label>
-  <input type="email" id="email" name="email">
-  <label for="email">Confirmar:</label>
-  <input type="email" id="email" name="email">
-  <label for="senha">Senha:</label>
-  <input type="password" id="senha" name="senha" maxlength="8" required>
-  <label for="senha">Confirmar:</label>
-  <input type="password" id="senha" name="senha" maxlength="8" required>
+      <input type="text" id="CPF" name="CPF" maxlength="14" placeholder="___.___.___-__">
+      <br>
+      <br>
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email">
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      <label for="email">Confirmar:</label>
+      <input type="email" id="email" name="email">
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha" maxlength="8" required>
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      <label for="senha">Confirmar:</label>
+      <input type="password" id="senha" name="senha" maxlength="8" required>
     </fieldset>
   </form>
+  <br>
+  <fieldset>
+    <legend>Dados de Contato:</legend>
+    <label for="Nome">Nome:</label>
+    <input type="text" id="Nome" name="Nome" maxlength="99">
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    <label for="Sobrenome">Sobrenome:</label>
+    <input type="text" id="Sobrenome" name="Sobrenome" maxlength="99">
+    <br>
+    <br>
+    <label for="Nascimento">Nascimento:</label>
+    <input type="text" id="Nascimento" name="Nascimento" maxlength="10" placeholder="xx/xx/xxxx">
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    <label for="RG">RG:</label>
+    <input type="text" id="RG" name="RG" maxlength="9">
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    <label for="Sexo">Sexo:</label>
+    <select id="Sexo" name="Sexo">
+      <option value="Masculino">Masculino</option>
+      <option value="Feminino">Feminino</option>
+      <option value="Outro">Outro</option>
+    </select>
+    <br>
+    <br>
+    <label for="CEP">CEP:</label>
+    <input type="text" id="CEP" name="CEP">
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    <label for="Endereço">Endereço:</label>
+    <input type="text" id="Endereço" name="Endereço">
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    <label for="Nº">Nº:</label>
+    <input type="text" id="Nº" name="Nº">
+    <br>
+    <br>
+    <label for="Bairro">Bairro:</label>
+    <input type="text" id="Bairro" name="Bairro">
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    <label for="Complemento">Complemento:</label>
+    <input type="text" id="Complemento" name="Complemento">
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    <label for="Cidade">Cidade:</label>
+    <input type="text" id="Cidade" name="Cidade">
+    <br>
+    <br>
+    <label for="Estado">Estado:</label>
+    <select id="Estado" name="Estado">
+      <option value="AC">AC</option>
+      <option value="AL">AL</option>
+      <option value="AP">AP</option>
+      <option value="AM">AM</option>
+      <option value="BA">BA</option>
+      <option value="CE">CE</option>
+      <option value="ES">ES</option>
+      <option value="GO">GO</option>
+      <option value="DF">DF</option>
+      <option value="MA">MA</option>
+      <option value="MT">MT</option>
+      <option value="MS">MS</option>
+      <option value="MG">MG</option>
+      <option value="PA">PA</option>
+      <option value="PB">PB</option>
+      <option value="PR">PR</option>
+      <option value="PE">PE</option>
+      <option value="PI">PI</option>
+      <option value="RJ">RJ</option>
+      <option value="RN">RN</option>
+      <option value="RS">RS</option>
+      <option value="RO">RO</option>
+      <option value="RR">RR</option>
+      <option value="SC">SC</option>
+      <option value="SP">SP</option>
+      <option value="SE">SE</option>
+      <option value="TO">TO</option>
+    </select>
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    <label for="DDD+Telefone">DDD+Telefone:</label>
+    <input type="text" id="DDD+Telefone" name="DDD+Telefone">
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    <label for="DDD+Celular">DDD+Celular:</label>
+    <input type="text" id="DDD+Celular" name="DDD+Celular">
 </body>
+
 </html>
