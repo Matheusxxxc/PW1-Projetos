@@ -222,5 +222,149 @@ footer {
   width: 300px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
  }
+ /* COLUNA DO FORMULÁRIO */
+.contato .formulario {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    width: 600px;
+}
  
+.contato .formulario h2 {
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+ 
+.contato .formulario p {
+    color: #666;
+    margin-bottom: 20px;
+}
+ 
+/* GRID DO FORMULÁRIO */
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+ 
+.form-grid label {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 14px;
+    color: #555;
+}
+ 
+.form-grid input,
+.form-grid textarea {
+    margin-top: 5px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+ 
+.form-grid textarea {
+    resize: none;
+}
+ 
+.full {
+    grid-column: 1 / -1;
+}
+ 
+/* BOTÃO DO FORMULÁRIO */
+.form-grid button {
+    background: #ff4d4d;
+    padding: 12px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+ 
+/* COLUNA DAS INFORMAÇÕES */
+.info-contato {
+    width: 320px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+ 
+.info-contato h3 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+ 
+.info-contato p {
+    color: #666;
+    margin-bottom: 20px;
+}
+ 
+/* CARDS DE E-MAIL E TELEFONE */
+.info-cards {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+ 
+.info-card {
+    flex: 1 1 140px;
+}
+ 
+.info-card small {
+    font-size: 12px;
+    color: #777;
+}
+ 
+.pill {
+    background: #e6e6e6;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    word-break: break-word;
+}
+ 
+/* REDES SOCIAIS */
+.socials {
+    display: flex;
+    gap: 10px;
+}
+ 
+.socials a {
+    background: #222;
+    color: #fff;
+    font-weight: bold;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-decoration: none;
+}
+ 
+/* RESPONSIVO */
+@media (max-width: 900px) {
+    .contato {
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+    .contato .formulario {
+        width: 100%;
+    }
+ 
+    .info-contato {
+        width: 100%;
+    }
+ 
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+}
  
